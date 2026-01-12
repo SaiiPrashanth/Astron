@@ -1,5 +1,7 @@
 # Astron
 
+![Gameplay](Screenshots/Astron_3.gif)
+
 **Astron** is a classic arcade-style space shooter built with vanilla **JavaScript** and **HTML5 Canvas**.
 
 ## Gameplay
@@ -19,7 +21,7 @@ Control a spaceship in a void filled with dangers. Thrust through space, rotate 
 3. **Controls**:
    - **W**: Thrust forward
    - **A / D**: Rotate Left / Right
-   - **Space** (Not yet implemented in preview): Fire
+   - **Space**: Fire
 
 ## Tech Stack
 
@@ -39,6 +41,13 @@ The engine and logic of the game.
 - **`class Player`**: Encapsulates ship state (position, velocity, rotation), rendering (drawing the vector ship), and physics (thrust, friction, screen wrapping).
 - **Game Loop**: Manages the animation frame request cycle to update and draw the game state continuously.
 - **Input Handling**: Listens for 'keydown' and 'keyup' events to manage smooth control states.
+
+## Gallery
+
+| | |
+|:---:|:---:|
+| ![Screenshot 1](Screenshots/Astron_1.png) | ![Screenshot 2](Screenshots/Astron_2.png) |
+| ![Screenshot 3](Screenshots/Astron_3.png) | |
 
 ## License
 
